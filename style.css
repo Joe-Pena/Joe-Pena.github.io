@@ -29,7 +29,6 @@ hr {
 .btn-outline-primary {
 	border: none;
 	color: white;
-	transition: 15s;
 	transform: scale(2);
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
@@ -40,6 +39,7 @@ hr {
 	background-color: transparent;
 	transform: scale(3);
 	cursor: pointer;
+	transition: 10s;
 }
 
 .btn-outline-primary:active {
