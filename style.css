@@ -1,0 +1,55 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-image: url(monolith.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+header h1 {
+	font-size: 2rem;
+	margin-bottom: 100px;
+	margin-top: 150px;
+}
+
+hr {
+	background-color: white;
+	height: 3px;
+	width: 150px;
+	margin-top: 150px;
+}
+
+.btn-outline-primary {
+	border: none;
+	color: white;
+	transition: 15s;
+	transform: scale(2);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.btn-outline-primary:hover {
+	border: none;
+	background-color: transparent;
+	transform: scale(3);
+	cursor: pointer;
+}
+
+.btn-outline-primary:active {
+	border: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+.btn-outline-primary:focus {
+	border-color: transparent;
+	background-color: transparent;
+	box-shadow: none;
+}
